@@ -4,10 +4,12 @@
 Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. 
 
 ## Embedding
-
+à rediger .. 
 
 ## Clustering et Labélisation des Emails avec LLM Llama 3
+Dans le cadre de l'analyse des emails Enron, cette partie se concentre sur la mise en place d'une méthodologie de clustering et de labélisation afin d'extraire des insights pertinents. L'objectif est de faciliter l'exploration et l'interprétation des échanges contenus dans cet immense volume de données textuelles.
 
+L'approche adoptée combine des techniques de clustering non supervisé et de traitement du langage naturel via un modèle LLM (Llama 3) pour :
 1. **Regrouper les emails par thématique** (à l'aide de K-Means et HDBSCAN).
 2. **Labéliser automatiquement** les emails par **topic principal** et détecter les emails de nature **juridique** à l'aide d'un **LLM (Llama 3)**.
 
@@ -52,8 +54,8 @@ Au final, **150 000 emails ont été retenus** pour le clustering.
   - Attribution du label **"juridique / non juridique"** à tous les emails du cluster correspondant.
 
 ## 4. Stockage des Résultats
+Les résultats labélisés sont accessibles ici : [Lien vers le fichier](https://drive.google.com/file/d/1Z8m2YHqgv79YXsd131Lns9Ih35ftPTib/view)
 Les emails labélisés ont été sauvegardés au **format Parquet** pour une exploitation optimale.
-
 ## 5. Avantages et Limites
 ### **Avantages :**
 - **Automatisation massive** : Identification rapide des sujets et des contenus sensibles.
@@ -73,5 +75,4 @@ Les emails labélisés ont été sauvegardés au **format Parquet** pour une exp
 
 ---
 
-Ce README présente l'approche adoptée pour **structurer, classifier et labéliser les emails Enron**. L'utilisation conjointe de **K-Means, HDBSCAN et Llama 3** permet une **classification automatisée et robuste**, rendant l'analyse des emails plus efficace et pertinente.
 
