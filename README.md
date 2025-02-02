@@ -1,17 +1,16 @@
 # Clustering et Labélisation des Emails avec LLM Llama 3
 
 ## Introduction
-Ce projet vise à structurer et analyser un jeu de données d'environ **150 000 emails** provenant du dataset Enron. L'objectif est double :
+Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. L'objectif est double :
 1. **Regrouper les emails par thématique** (à l'aide de K-Means et HDBSCAN).
 2. **Labéliser automatiquement** les emails par **topic principal** et détecter les emails de nature **juridique** à l'aide d'un **LLM (Llama 3)**.
 
 Les images ci-dessous illustrent l'architecture et le pipeline de clustering :
-- **Diagramme de l'architecture du clustering et de la labélisation**
-  ![image](https://github.com/user-attachments/assets/7b847dec-f75b-4d6f-a953-3d23687d167b)
-
- 
 - **Flux du traitement des emails**
  ![image](https://github.com/user-attachments/assets/a44cb133-5c8b-49ae-9f09-0ee3332aba62)
+
+- **Diagramme de l'architecture du clustering et de la labélisation**
+  ![image](https://github.com/user-attachments/assets/7b847dec-f75b-4d6f-a953-3d23687d167b)
 
 
 ## 1. Prétraitement des Emails
