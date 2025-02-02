@@ -7,6 +7,8 @@ Ce projet vise à structurer et analyser un jeu de données d'environ **150 000 
 
 Les images ci-dessous illustrent l'architecture et le pipeline de clustering :
 - **Diagramme de l'architecture du clustering et de la labélisation**
+  ![image](https://github.com/user-attachments/assets/7b847dec-f75b-4d6f-a953-3d23687d167b)
+
  
 - **Flux du traitement des emails**
  ![image](https://github.com/user-attachments/assets/a44cb133-5c8b-49ae-9f09-0ee3332aba62)
