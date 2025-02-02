@@ -23,7 +23,7 @@ Au final, **150 000 emails ont été retenus** pour le clustering.
 
 ## 2. Clustering des Emails
 ### **2.1 Clustering K-Means (2000 Clusters)**
-- Utilisation de **K-Means** pour créer **2000 groupes** basés sur la similarité textuelle des emails.
+- Utilisation de **K-Means** pour créer **2000 groupes** (calculé grace à la technique du coude pour un clustering optimal) basés sur la similarité textuelle des emails.
 - Chaque cluster regroupe des emails traitant d'un sujet similaire.
 
 ### **2.2 Clustering HDBSCAN (329 Clusters)**
