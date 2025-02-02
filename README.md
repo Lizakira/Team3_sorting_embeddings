@@ -71,6 +71,10 @@ Les emails labélisés ont été sauvegardés au **format Parquet** pour une exp
 - **Optimisation du prompt LLM** pour réduire les erreurs de classification.
 - **Filtrage des emails analysés** pour une meilleure efficacité.
 - **Utilisation d'un LLM open-source en local** pour réduire les coûts d'exécution.
+- **Analyse du bruit (outliers HDBSCAN)**, examiner les points considérés comme bruit par HDBSCAN pour identifier d'éventuelles anomalies ou fraudes.
+- **Optimisation du nombre de clusters K-means et de centroïdes**, une analyse plus approfondie du nombre optimal de clusters permettrait d'améliorer la segmentation et la qualité des regroupements.
+- **Affinement de l'intégration entre K-Means et HDBSCAN** afin de maximiser les forces de chaque approche.
+- **Comparaison avec d’autres techniques** comme DBSCAN ou le clustering hiérarchique permettrait d'évaluer des alternatives plus précises et performantes.
 
 
 ---
