@@ -1,7 +1,13 @@
-# Clustering et Labélisation des Emails avec LLM Llama 3
 
-## Introduction
-Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. L'objectif est double :
+
+# Introduction
+Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. 
+
+## Embedding
+
+
+## Clustering et Labélisation des Emails avec LLM Llama 3
+
 1. **Regrouper les emails par thématique** (à l'aide de K-Means et HDBSCAN).
 2. **Labéliser automatiquement** les emails par **topic principal** et détecter les emails de nature **juridique** à l'aide d'un **LLM (Llama 3)**.
 
