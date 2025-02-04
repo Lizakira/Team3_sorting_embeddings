@@ -3,7 +3,7 @@
 # Introduction
 Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. 
 
-# Embedding Objectifs
+## Embedding
 
 Transformer un dataset de 500 000 emails en embeddings exploitables
 Nettoyer et structurer les emails pour extraire uniquement les contenus pertinents
