@@ -3,8 +3,24 @@
 # Introduction
 Ce projet vise à structurer et analyser un jeu de données d'environ **500 000 emails** provenant du dataset Enron. 
 
-## Embedding
-à rediger .. 
+# Embedding Objectifs
+
+Transformer un dataset de 500 000 emails en embeddings exploitables
+Nettoyer et structurer les emails pour extraire uniquement les contenus pertinents
+Comparer différents modèles d’embedding et optimiser le choix final
+Héberger et partager efficacement la base vectorielle
+Construire un agent de recherche documentaire interactif
+
+## Stack & Outils
+Modèle d’embedding : gte-base-en-v1.5 (classé 57e au MTEB)
+Base vectorielle : ChromaDB
+Infrastructure : Google Colab, Jupyter, GitHub, Hugging Face
+Agent RAG : Recherche vectorielle + LLM pour répondre aux requêtes utilisateur
+
+## Structure du Repo
+AgentRecherche.ipynb : Notebook de recherche documentaire avec RAG
+RAG.md : Documentation détaillée sur l’implémentation du RAG
+chroma.sqlite3 : Base de données vectorisée (à récupérer manuellement)
 
 ## Clustering et Labélisation des Emails avec LLM Llama 3
 Dans le cadre de l'analyse des emails Enron, cette partie se concentre sur la mise en place d'une méthodologie de clustering et de labélisation afin d'extraire des insights pertinents. L'objectif est de faciliter l'exploration et l'interprétation des échanges contenus dans cet immense volume de données textuelles.
